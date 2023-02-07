@@ -19,6 +19,8 @@ public class Principal {
 			// TODO Auto-generated catch block
 			JOptionPane.showMessageDialog(null,"Ocorreu um erro","Erro",0,null);
 			e.printStackTrace();
+		}finally {
+			JOptionPane.showMessageDialog(null,"Fim do programa","Erro",0,null);
 		}
 	}
 
